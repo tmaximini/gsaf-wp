@@ -21,8 +21,8 @@ services:
         jetpack
       THEMES: >-
         storefront
-      URL_REPLACE:
-        http://192.168.178.23
+#      URL_REPLACE:
+#        http://192.168.178.23
   db:
     image: mariadb:10 # or mysql:5.7
     volumes:
