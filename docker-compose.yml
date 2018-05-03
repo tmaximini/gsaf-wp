@@ -16,9 +16,13 @@ services:
         co-authors-plus
         [WP-API]https://github.com/WP-API/WP-API/archive/master.zip
         woocommerce
+        woocommerce-germanized
         sidekick
+        jetpack
       THEMES: >-
         storefront
+      URL_REPLACE:
+        http://192.168.178.23
   db:
     image: mariadb:10 # or mysql:5.7
     volumes:
